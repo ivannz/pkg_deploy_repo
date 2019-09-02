@@ -16,6 +16,8 @@ setup(
         "torchvision",
     ],
     package_data={
-        "schedule": ["data/dataset.txt",]
+        "bar": [
+            "data/dataset.txt",
+        ]
     }
 )
