@@ -18,7 +18,7 @@ setup(
     package_data={
         "bar": [
             "data/dataset.txt",
-        ]
+        ],
         "bar.sub": [
             "data/data.zip",
         ]
