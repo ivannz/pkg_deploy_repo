@@ -18,6 +18,16 @@ subdirectory=tutorials/foo-tutorial
 
 # Installing bar-tutorial
 
+Installing `bar` is trivial:
 ```bash
 pip install --upgrade -q git+file:///Users/user/Github/test_repo#subdirectory=tutorials/bar-tutorial
+```
+
+Accessing package data can be done like this:
+```python
+from pkg_resources import resource_stream
+
+# data URI is relative to the package name. This is specified in setup.py
+with resource_stream("bar", "data/dataset.txt") as fin:
+    pass
 ```
