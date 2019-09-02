@@ -19,5 +19,8 @@ setup(
         "bar": [
             "data/dataset.txt",
         ]
+        "bar.sub": [
+            "data.zip",
+        ]
     }
 )
