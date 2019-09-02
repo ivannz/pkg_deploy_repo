@@ -20,7 +20,7 @@ setup(
             "data/dataset.txt",
         ],
         "bar.sub": [
-            "data/data.zip",
+            "data/dataset.zip",
         ]
     }
 )
