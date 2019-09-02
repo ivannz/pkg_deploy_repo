@@ -14,3 +14,10 @@ pip install --upgrade \
 git+https://github.com/ivannz/test-tutorial-repo.git#\
 subdirectory=tutorials/foo-tutorial
 ```
+
+
+# Installing bar-tutorial
+
+```bash
+pip install --upgrade -q git+file:///Users/user/Github/test_repo#subdirectory=tutorials/bar-tutorial
+```
